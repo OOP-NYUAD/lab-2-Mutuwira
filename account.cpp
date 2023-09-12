@@ -59,7 +59,7 @@ public:
          balance -= amount;
         }
         else{
-            std:: cout << "Insuficient funds! \n";
+            std:: cout << "Insufficient funds! \n";
         }
       
     }
