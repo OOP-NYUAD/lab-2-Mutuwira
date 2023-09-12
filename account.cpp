@@ -55,7 +55,7 @@ public:
     // Function to withdraw an amount from the account.
     // TODO: Implement the 'withdraw' function.
     void withdraw(double amount){
-        if (balance > amount){
+        if (balance >=  amount){
          balance -= amount;
         }
         else{
