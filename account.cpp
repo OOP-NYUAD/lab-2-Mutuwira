@@ -69,6 +69,6 @@ public:
     // TODO: Implement the destructor.
 
     ~Account(){
-        std::cout<< "Account with balance "<< balance <<"is being destroyed. \n";
+        std::cout<< "Account with balance "<< balance <<" is being destroyed. \n";
     }
 };
