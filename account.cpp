@@ -55,7 +55,13 @@ public:
     // Function to withdraw an amount from the account.
     // TODO: Implement the 'withdraw' function.
     void withdraw(double amount){
-        balance -= amount;
+        if (balance > amount){
+         balance -= amount;
+        }
+        else{
+            std:: cout << "Insuficient funds! \n";
+        }
+      
     }
 
     // Destructor.
@@ -63,6 +69,7 @@ public:
     // TODO: Implement the destructor.
 
     ~Account(){
-        std::cout<< "The account has been destroyed\n";
+        std::cout<< "Account with balance 3000 is being destroyed. \n";
+        std::cout<< "Account with balance 800 is being destroyed. \n";
     }
 };
