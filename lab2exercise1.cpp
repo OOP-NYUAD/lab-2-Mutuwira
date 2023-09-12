@@ -22,7 +22,7 @@ int main() {
     std::cout << "Account 1 balance after deposit: " << account1.getBalance() << std::endl;
     std::cout << "Account 2 balance after withdrawal: " << account2.getBalance() << std::endl;
 
-    // Set a new balance of $3000 for the first account using the 'setBalance' function.
+    // Set a new balance of $3000 for the first account using the 'setBalance' function
     account1.setBalance(3000.0);
 
     // Test the 'getBalance' function for the first account after setting the new balance.
